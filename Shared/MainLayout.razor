@@ -1,23 +1,22 @@
 ﻿@inherits LayoutComponentBase
 
 <div class="page">
-    <div class="d-flex flex-wrap justify-content-center py-3 mb-4">
+    <div class="container-fluid">
         <NavMenu />
     </div>
 
     <div class="main">
-        <div class="content container-fluid">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col"></div>
-                <div class="col-xl-8">
-                    <p>TEST</p>
+
+                <div class="content col-xl-8">
+                    @Body
                 </div>
+
                 <div class="col"></div>
             </div>
         </div>
 
-        <div class="content">
-            @Body
-        </div>
     </div>
 </div>
