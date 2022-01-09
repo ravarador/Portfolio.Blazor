@@ -12,3 +12,8 @@
         display: none;
     }
 }
+
+.nav-item ::deep .active {
+    color: whitesmoke !important;
+    background-color: black !important;
+}
