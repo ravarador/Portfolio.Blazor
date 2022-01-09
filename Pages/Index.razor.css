@@ -4,6 +4,10 @@
     margin-bottom: 0px;
 }
 
+#row {
+    align-items: center;
+}
+
 #intro {
     font-size: 30px;
     letter-spacing: -2px;
@@ -16,13 +20,8 @@
 
 #description {
     font-size: 20px;
-}
-
-.social-icon {
-    font-size: 30px;
-    margin: 10px;
-    color: black;
-    transition: font-size .2s;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .typewriter {
@@ -31,6 +30,7 @@
 
 /* ANIMATION */
 .typewriter {
+    float: left;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid rgb(0, 0, 0); /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
