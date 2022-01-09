@@ -1,7 +1,26 @@
 ﻿@page "/"
 
-<h1>Hello, world!</h1>
+<div class="row align-items-center">
+    <div class="col-sm">
+        <img id="profile-img" src="./img/newdp.png" class="img-fluid rounded-circle mx-auto shadow-lg" alt="Portfolio picture of Ravni Arador.">
+    </div>
+    <div class="col mt-5" id="introduction">
+        <section class="row">
+            <span id="intro">Hello. I am</span><br>
+            <p id="name">Ravni Arador</p>
+        </section>
+        <section class="row typewriter">
+            <p id="description">A Full Stack .NET Developer.</p>
+        </section>
+        <hr>
 
-Welcome to your new app.
-
-<SurveyPrompt Title="How is Blazor working for you?" />
+        <section class="websites row">
+            <div class="social-icons">
+                <a class="social-icon" href="https://www.linkedin.com/in/ravniarador/" target=”_blank”><i class="fab fa-linkedin-in"></i></a>
+                <a class="social-icon" href="https://github.com/ravarador" target=”_blank”><i class="fab fa-github"></i></a>
+                <!-- <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a> -->
+                <a class="social-icon" href="https://www.facebook.com/ravni.arador.1/" target=”_blank”><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </section>
+    </div>
+</div>

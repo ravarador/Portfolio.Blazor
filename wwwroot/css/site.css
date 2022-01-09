@@ -1,12 +1,26 @@
+@font-face {
+    font-family: 'silkaregular';
+    src: url('./silka-regular-webfont.eot');
+    src: url('./silka-regular-webfont.eot?#iefix') format('embedded-opentype'), url('./silka-regular-webfont.woff2') format('woff2'), url('./silka-regular-webfont.woff') format('woff'), url('./silka-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'silkaitalic';
+    src: url('./silka-regularitalic-webfont.eot');
+    src: url('./silka-regularitalic-webfont.eot?#iefix') format('embedded-opentype'), url('./silka-regularitalic-webfont.woff2') format('woff2'), url('./silka-regularitalic-webfont.woff') format('woff'), url('./silka-regularitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    /* TODO */
-    /* background: url('../img/bg.jpg') no-repeat fixed center;  */
     background-color: rgb(247, 249, 252) !important;
-    font-family: 'Barlow', sans-serif !important;
+    font-family: 'silkaregular', Verdana, sans-serif !important;
 }
 
 a, h1, h2, h3, h4 {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'silkaregular', Verdana, sans-serif !important;
 }
 
 .social-icon {
